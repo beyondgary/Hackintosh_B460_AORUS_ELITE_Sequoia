@@ -27,6 +27,10 @@
 
 - RX560、RX570、RX580 独立显卡免驱。使用独立显卡接口，已测试 DP、HDMI、DVI 接口正常。
 
+----
+
+## 安装前准备事项
+
 ## 主板 BIOS 设置
 
 ### `Gigabyte B460M AORUS ELITE`
@@ -89,9 +93,19 @@
   - `Above 4G decoding` (大于 4G 地址空间解码)
   - `Hyper Threading` (超线程)
   - `Execute Disable Bit` (执行禁止位)
-  - `EHCI/XHCI Hand-off` (接手 EHCI/XHCI 控制)
+  - `EHCI/XHCI Hand-off` (EHCI/XHCI 控制)
   - `OS type : Windows 8.1/10` (操作系统类型：Windows 8.1/10)
   - `Legacy RTC Device` (传统 RTC 设备)
+
+## 重新生成一次序列 ID
+
+序列 ID 应该重新生成一次，避免使用这里使用过的。
+
+使用 `OpenCore Configurator 2.76.2.0` 工具，`PlatformInfo-机型平台设置` 选择一次机型 `iMac20,1`，会自动生成一系列与当前机型匹配的序列 ID。这些 ID 参数决定是否能正常使用 Apple 的服务。
+
+----
+
+## 安装后操作事项
 
 ## 开启硬盘的 TRIM 功能
 
@@ -116,7 +130,7 @@ sudo trimforce disable
 system_profiler SPSerialATADataType | **grep** "TRIM Support"
 ```
 
-## 已知问题
+## 深度睡眠问题
 
 无法睡眠，睡眠后马上自动唤醒，临时解决方法使用以下命令防止进入睡眠模式：
 
