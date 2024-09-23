@@ -2,8 +2,10 @@
 
 ## 20240923 更新
 
-- 升级 `Lilu.kext` 到 v1.6.8，移除`-lilubetaall` 参数。
-- `UIScale = -1`
+- 升级 `Lilu.kext` v1.6.8，移除`-lilubetaall` 参数。
+- 升级 `AppleALC.kext` v1.9.1
+- 升级 `VirtualSMC` v1.3.3 (`VirtualSMC.kext`、`SMCProcessor.kext`、`SMCSuperIO.kext`)
+- 升级 `WhateverGreen.kext` v1.6.7
 
 ## 20240921 更新
 
