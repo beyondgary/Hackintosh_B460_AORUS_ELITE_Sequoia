@@ -1,5 +1,21 @@
 # Hackintosh EFI B460M AORUS ELITE macOS Sequoia
 
+<img title="" src="Screenshot/systeminfo.png" alt="systeminfo.png" width="370">
+
+<img title="" src="Screenshot/cpu-s.png" alt="cpu-s.png" width="370">
+
+<img title="" src="Screenshot/ALC.png" alt="ALC.png" width="370">
+
+<img title="" src="Screenshot/Ethernet.png" alt="Ethernet.png" width="659">
+
+<img title="" src="Screenshot/GPU.png" alt="GPU.png" width="769">
+
+<img title="" src="Screenshot/SSD.png" alt="SSD.png" width="685">
+
+<img title="" src="Screenshot/usb.png" alt="usb.png" width="759">
+
+<img title="" src="Screenshot/H264_HEVC.png" alt="H264_HEVC.png" width="705">
+
 | 名称  | 型号版本                                     |
 | --- | ---------------------------------------- |
 | 主板  | Gigabyte B460M AORUS ELITE               |
