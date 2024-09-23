@@ -1,5 +1,10 @@
 # Hackintosh i5-10400 B460M-AORUS-ELITE RX580
 
+## 20240923 更新
+
+- 升级 `Lilu.kext` 到 v1.6.8，移除`-lilubetaall` 参数。
+- `UIScale = -1`
+
 ## 20240921 更新
 
 支持从 macOS Sonoma 升级到 macOS Sequoia
