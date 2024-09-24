@@ -1,5 +1,11 @@
 # Hackintosh i5-10400 B460M-AORUS-ELITE RX580
 
+## 20240924 更新
+
+完整更新 OpenCore v1.0.1 版本所有文件。
+
+使用 `OCAuxiliaryTools 20240001` 工具修改 `config.plist`。
+
 ## 20240923 更新
 
 - 升级 `Lilu.kext` v1.6.8，移除`-lilubetaall` 参数。
